@@ -1,0 +1,678 @@
+
+.winners-campaign-area {
+    background: #7000ff;
+    padding: 34px 36px;
+    border-radius: 35px;
+    margin: 0 36px 33px
+}
+
+.winners-campaign-area .section-title {
+    color: #fff;
+    letter-spacing: -1.45px;
+    font-size: 31px;
+    line-height: 27px;
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-top: 0;
+    text-transform: capitalize;
+    font-weight: 900
+}
+
+.winners-campaign-area .section-title:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.winners-campaign-area .section-title:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.winners-campaign-area p {
+    color: #fff;
+    letter-spacing: -.44px;
+    font-size: 15px;
+    line-height: 19px;
+    max-width: 375px;
+    margin-bottom: 28px
+}
+
+.winners-campaign-area p:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.winners-campaign-area p:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.winners-campaign-area p:lang(ar) {
+    font-weight: 700
+}
+
+.winners-campaign-area p:lang(en) {
+    font-weight: 500
+}
+
+.winners-campaign-area .swiper-slide {
+    max-width: 345px
+}
+
+.winners-campaign-area .swiper-slide .winner-campagin-box {
+    height: 393px;
+}
+.winner-campagin-box {
+    height: 383px;
+    width: auto; 
+    margin-left: 1em;
+}
+
+.winners-campaign-area {
+    position: relative
+}
+
+.soldout-campaign-area .swiper-button-next,.soldout-campaign-area .swiper-button-prev,.winners-campaign-area .swiper-button-next,.winners-campaign-area .swiper-button-prev {
+    width: 58px;
+    height: 48px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.soldout-campaign-area .swiper-button-next:hover,.soldout-campaign-area .swiper-button-prev:hover,.winners-campaign-area .swiper-button-next:hover,.winners-campaign-area .swiper-button-prev:hover {
+    border-color: #fff;
+    outline: 0
+}
+
+.soldout-campaign-area .swiper-button-next:hover:after,.soldout-campaign-area .swiper-button-prev:hover:after,.winners-campaign-area .swiper-button-next:hover:after,.winners-campaign-area .swiper-button-prev:hover:after {
+    color: #fff;
+    outline: 0
+}
+
+.soldout-campaign-area .swiper-button-next:active,.soldout-campaign-area .swiper-button-prev:active,.winners-campaign-area .swiper-button-next:active,.winners-campaign-area .swiper-button-prev:active {
+    outline: 0
+}
+
+.soldout-campaign-area .swiper-button-next:after,.soldout-campaign-area .swiper-button-prev:after,.winners-campaign-area .swiper-button-next:after,.winners-campaign-area .swiper-button-prev:after {
+    font-size: 12px;
+    color: #fff;
+    outline: 0
+}
+
+.soldout-campaign-area .swiper-button-next:focus,.soldout-campaign-area .swiper-button-prev:focus,.winners-campaign-area .swiper-button-next:focus,.winners-campaign-area .swiper-button-prev:focus {
+    outline: 0
+}
+
+.soldout-campaign-area .swiper-button-prev,.winners-campaign-area .swiper-button-prev {
+    right: 106px;
+    top: 54px;
+    left: auto
+}
+
+.soldout-campaign-area .swiper-button-next,.winners-campaign-area .swiper-button-next {
+    right: 36px;
+    top: 54px;
+    left: auto
+}
+
+.soldout-campaign-area:lang(ar) .swiper-button-next,.soldout-campaign-area:lang(ar) .swiper-button-prev,.winners-campaign-area:lang(ar) .swiper-button-next,.winners-campaign-area:lang(ar) .swiper-button-prev {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.soldout-campagin-box,.winner-campagin-box {
+    background: #fff;
+    border-radius: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.soldout-campagin-box .campaign-image,.winner-campagin-box .campaign-image {
+    width: 100%;
+    position: relative;
+    min-height: 165px;
+    max-height: 175px;
+    overflow: hidden;
+    margin: 24px 15px 10px;
+    border-radius: 35px
+}
+
+.soldout-campagin-box .winnerImage,.winner-campagin-box .winnerImage {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 86px;
+    height: 86px;
+    border: 5px solid #7000ff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.soldout-campagin-box .winnerImage img,.winner-campagin-box .winnerImage img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.soldout-campagin-box h4,.winner-campagin-box h4 {
+    font-weight: 900;
+    color: #ff3e3e;
+    text-align: center;
+    font-size: 23px;
+    line-height: 27px;
+    letter-spacing: -.92px;
+    margin: 0;
+    font-style: italic;
+    padding: 0 15px
+}
+
+.soldout-campagin-box h4:lang(ar),.winner-campagin-box h4:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box h4:lang(en),.winner-campagin-box h4:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box h5,.winner-campagin-box h5 {
+    font-weight: 400;
+    letter-spacing: -.63px;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+.soldout-campagin-box h5:lang(ar),.winner-campagin-box h5:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box h5:lang(en),.winner-campagin-box h5:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box h5 b:lang(ar),.winner-campagin-box h5 b:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box h5 b:lang(en),.winner-campagin-box h5 b:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box h5 b:lang(ar),.winner-campagin-box h5 b:lang(ar) {
+    font-weight: 700
+}
+
+.soldout-campagin-box h5 b:lang(en),.winner-campagin-box h5 b:lang(en) {
+    font-weight: 500
+}
+
+.soldout-campagin-box h6,.winner-campagin-box h6 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: -.15px;
+    text-align: center;
+    margin: 5px 0 8px;
+    padding: 0 15px
+}
+
+.soldout-campagin-box h6:lang(ar),.winner-campagin-box h6:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box h6:lang(en),.winner-campagin-box h6:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box h6>span,.winner-campagin-box h6>span {
+    text-align: center;
+    display: block
+}
+
+.soldout-campagin-box .winner-link-video,.winner-campagin-box .winner-link-video {
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: -.43px;
+    text-align: center;
+    color: #000;
+    width: 150px;
+    height: 29px;
+    border-radius: 14px;
+    border: 1px solid #c1c1c1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    padding: 0 15px
+}
+
+.soldout-campagin-box .winner-link-video:lang(ar),.winner-campagin-box .winner-link-video:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box .winner-link-video:lang(en),.winner-campagin-box .winner-link-video:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box .winner-link-video:lang(ar),.winner-campagin-box .winner-link-video:lang(ar) {
+    font-weight: 700
+}
+
+.soldout-campagin-box .winner-link-video:lang(en),.winner-campagin-box .winner-link-video:lang(en) {
+    font-weight: 500
+}
+
+.soldout-campagin-box .winner-link-video span,.winner-campagin-box .winner-link-video span {
+    background: hsla(0,0%,47.1%,.470252);
+    width: 23px;
+    height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.soldout-campagin-box .winner-link-video span img,.winner-campagin-box .winner-link-video span img {
+    width: 8.8px
+}
+
+.soldout-campagin-box .winnerInfoBox,.winner-campagin-box .winnerInfoBox {
+    min-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 15px
+}
+
+.soldout-campagin-box .additionalWinner-Box,.winner-campagin-box .additionalWinner-Box {
+    padding: 18px 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 89%;
+    background: #fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    z-index: -1
+}
+
+.soldout-campagin-box .additionalWinner-Box.active,.winner-campagin-box .additionalWinner-Box.active {
+    opacity: 1;
+    height: auto;
+    z-index: 1
+}
+
+.soldout-campagin-box .additionalWinner-Box img,.winner-campagin-box .additionalWinner-Box img {
+    left: 0;
+    right: 0;
+    position: absolute
+}
+
+.soldout-campagin-box .additionalWinner-Box img.top,.winner-campagin-box .additionalWinner-Box img.top {
+    top: 0
+}
+
+.soldout-campagin-box .additionalWinner-Box img.bottom,.winner-campagin-box .additionalWinner-Box img.bottom {
+    bottom: 55px
+}
+
+.soldout-campagin-box .additionalWinner-Box ul,.winner-campagin-box .additionalWinner-Box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li,.winner-campagin-box .additionalWinner-Box ul li {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li:last-child,.winner-campagin-box .additionalWinner-Box ul li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-name,.winner-campagin-box .additionalWinner-Box ul li .winner-name {
+    letter-spacing: -.63px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-name:lang(ar),.winner-campagin-box .additionalWinner-Box ul li .winner-name:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-name:lang(en),.winner-campagin-box .additionalWinner-Box ul li .winner-name:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-name:lang(ar),.winner-campagin-box .additionalWinner-Box ul li .winner-name:lang(ar) {
+    font-weight: 700
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-name:lang(en),.winner-campagin-box .additionalWinner-Box ul li .winner-name:lang(en) {
+    font-weight: 500
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-name span,.winner-campagin-box .additionalWinner-Box ul li .winner-name span {
+    color: #4200ff
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .on-winning,.winner-campagin-box .additionalWinner-Box ul li .on-winning {
+    letter-spacing: -.63px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .on-winning b:lang(ar),.winner-campagin-box .additionalWinner-Box ul li .on-winning b:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .on-winning b:lang(en),.winner-campagin-box .additionalWinner-Box ul li .on-winning b:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .on-winning b:lang(ar),.winner-campagin-box .additionalWinner-Box ul li .on-winning b:lang(ar) {
+    font-weight: 700
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .on-winning b:lang(en),.winner-campagin-box .additionalWinner-Box ul li .on-winning b:lang(en) {
+    font-weight: 500
+}
+
+.soldout-campagin-box .additionalWinner-Box ul li .winner-ticket,.winner-campagin-box .additionalWinner-Box ul li .winner-ticket {
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: -.151111px;
+    text-align: center
+}
+
+.soldout-campagin-box .additionalWinner-Box .winner-link-video,.winner-campagin-box .additionalWinner-Box .winner-link-video {
+    width: auto;
+    padding: 0 13px
+}
+
+.soldout-campagin-box .additionalWinner-Box .close-winner-box,.winner-campagin-box .additionalWinner-Box .close-winner-box {
+    background: #fff;
+    padding: 12px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #efefef
+}
+
+.soldout-campagin-box .additionalWinner-Box .scrolled,.winner-campagin-box .additionalWinner-Box .scrolled {
+    overflow-x: scroll;
+    max-height: 263px;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.soldout-campagin-box .additionalWinner-Box .scrolled::-webkit-scrollbar,.winner-campagin-box .additionalWinner-Box .scrolled::-webkit-scrollbar {
+    display: none
+}
+
+.winner-campagin-box {
+    padding: 34px 15px 14px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    position: relative
+}
+
+.winner-campagin-box h4 {
+    color: #7000ff
+}
+
+.winners-campaign-area {
+    max-height: 564px
+}
+
+.winners-campaign-area .swiper-container {
+    overflow-x: visible;
+    overflow-y: hidden;
+    z-index: 2;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.winners-campaign-area .swiper-container::-webkit-scrollbar {
+    display: none
+}
+
+.winners-campaign-area .additionalWinner-Box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(22,22,22,.33);
+    z-index: 52
+}
+
+.winners-campaign-area .additionalWinner-Box .box {
+    width: 345px;
+    height: 508px;
+    background: #fff;
+    border-radius: 25px
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader {
+    height: 111px;
+    -webkit-box-shadow: 0 8px 4px rgba(0,0,0,.05);
+    box-shadow: 0 8px 4px rgba(0,0,0,.05);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader h4 {
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -.63px;
+    font-weight: 400;
+    text-align: center
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader h4:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader h4:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader h4:lang(ar) {
+    font-weight: 700
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader h4:lang(en) {
+    font-weight: 500
+}
+
+.winners-campaign-area .additionalWinner-Box .boxHeader h6 {
+    letter-spacing: -.151111px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: 400
+}
+
+.winners-campaign-area .additionalWinner-Box li {
+    border-bottom: 1px solid #efefef;
+    padding: 15px 15px 12px
+}
+
+.winners-campaign-area .additionalWinner-Box li:last-child {
+    border-bottom: 0
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-name {
+    letter-spacing: -.63px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-name:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-name:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-name:lang(ar) {
+    font-weight: 700
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-name:lang(en) {
+    font-weight: 500
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-name span {
+    color: #4200ff
+}
+
+.winners-campaign-area .additionalWinner-Box .on-winning {
+    letter-spacing: -.63px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center
+}
+
+.winners-campaign-area .additionalWinner-Box .on-winning b:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+.winners-campaign-area .additionalWinner-Box .on-winning b:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+.winners-campaign-area .additionalWinner-Box .on-winning b:lang(ar) {
+    font-weight: 700
+}
+
+.winners-campaign-area .additionalWinner-Box .on-winning b:lang(en) {
+    font-weight: 500
+}
+
+.winners-campaign-area .additionalWinner-Box .winner-ticket {
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: -.151111px;
+    text-align: center
+}
+
+.winners-campaign-area .additionalWinner-Box .scrolled {
+    overflow-x: scroll;
+    max-height: 397px;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.winners-campaign-area .additionalWinner-Box .scrolled::-webkit-scrollbar {
+    display: none
+}
+
+
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 28px 0 34px
+}

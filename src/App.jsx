@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
+import WinnerCard from './components/WinnerCard/WinnerCard'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="page">
       <Header />
       <Card />
+      <WinnerCard />
       <Footer />
     </div>
   )
