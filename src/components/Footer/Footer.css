@@ -423,11 +423,11 @@
 }
 
 .app-download-store a.app-store:lang(ar) {
-    background-image: url(./src/assets/sprite-ar2.png)
+    background-image: url(./public/sprite-ar2.png)
 }
 
 .app-download-store a.app-store:lang(en) {
-    background-image: url(./src/assets/sprite2.png)
+    background-image: url(./public/sprite2.png)
 }
 
 .app-download-store a.play-store {
