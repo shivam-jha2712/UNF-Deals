@@ -339,11 +339,11 @@
 }
 
 #idealz-secondary-footer .copyright-footer-logo:lang(ar) {
-    background-image: url(../images/newdesktop/sprite-ar2.png)
+    background-image: url(./src/assets/sprite2.png)
 }
 
 #idealz-secondary-footer .copyright-footer-logo:lang(en) {
-    background-image: url(../images/newdesktop/sprite2.png)
+    background-image: url(./src/assets/sprite2.png)
 }
 /* Twitter Color */
 .st0{fill:#F3F3F3;}
