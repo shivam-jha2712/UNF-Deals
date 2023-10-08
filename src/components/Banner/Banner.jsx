@@ -30,17 +30,3 @@ const Banner = () => {
 
 export default Banner
 
-/*
-style="color:#f22"
-style="color:#fff"
-style="color:#fff"
-
-
-
-fdprocessedid="68a26n"
-tabindex="0"
-
-fdprocessedid="vmfxxq"
-tabindex="-1"
-
-*/ 
