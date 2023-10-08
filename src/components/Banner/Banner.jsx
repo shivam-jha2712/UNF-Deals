@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div>Ram Ram Sarya ne</div>
+        <div>Jai Shree Ram</div>
     )
 }
 
