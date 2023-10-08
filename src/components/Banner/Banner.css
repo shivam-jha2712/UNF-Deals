@@ -87,6 +87,7 @@
     background: -webkit-gradient(linear,left top,left bottom,color-stop(-30.22%,#f55151),color-stop(160.74%,#9f041b));
     background: linear-gradient(180deg,#f55151 -30.22%,#9f041b 160.74%);
     width: 50%;
+    margin-top: -2em;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 308px;
@@ -125,11 +126,11 @@
 
 
 .swiper-slide-1{
-    background-image: url(./src/assets/banner.png); 
-    width: 1024px;
+    background-image: url(./src/assets/banner2.png); 
+   width: 810px;
 }
 .swiper-slide-2{
-    background-image: url(./src/assets/banner.png); 
+    background-image: url(./src/assets/banner2.png); 
     width: 810px;
 }
 
@@ -6700,5 +6701,5 @@ button.swiper-pagination-bullet {
 
 
 .swiper-slide{
-    width: 60em;
+    height: 40vh;
 }
