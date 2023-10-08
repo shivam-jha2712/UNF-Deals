@@ -14,7 +14,7 @@ html {
 
 *,:after,:before {
     -webkit-box-sizing: inherit;
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
@@ -26,7 +26,8 @@ audio,canvas,video {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    padding: 0 10vw;
 }
 
 ul {
@@ -89,7 +90,7 @@ a,a:active,a:hover,a:visited,button,button:active,button:hover,button:visited {
 
     body {
         background: #fff;
-        color: #000
+        color: #000;
     }
 
     a,blockquote,pre,table {
