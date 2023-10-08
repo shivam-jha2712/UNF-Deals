@@ -121,6 +121,7 @@
 
 #main-page-slider .content-box .content-right h3{
        color: #29ab87;
+       color:#1FC407
 }
 
 
@@ -362,13 +363,13 @@
     #main-page-slider h4 {
         font-size: 26px;
         line-height: 28px;
-        color: #3BB77E
+        color: #000000
     }
 
     #main-page-slider h5 {
         font-size: 23px;
         line-height: 23px;
-        color: #3BB77E;
+        color: #696969;
     }
 
 
