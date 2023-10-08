@@ -1,0 +1,448 @@
+
+#idealz-primary-footer {
+    border-radius: 15px;
+    background: #fff;
+    -webkit-box-shadow: 4px 8px 24px rgba(0,0,0,.04);
+    box-shadow: 4px 8px 24px rgba(0,0,0,.04);
+    padding: 50px 53px;
+    margin: 0 36px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+#idealz-primary-footer .footer-navigation h6 {
+    color: #000;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -.36px;
+    margin: 0 0 15px
+}
+
+#idealz-primary-footer .footer-navigation h6:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+#idealz-primary-footer .footer-navigation h6:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+#idealz-primary-footer .footer-navigation h6:lang(ar) {
+    font-weight: 700
+}
+
+#idealz-primary-footer .footer-navigation h6:lang(en) {
+    font-weight: 500
+}
+
+#idealz-primary-footer .footer-navigation a {
+    color: #000;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: -.28125px;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+#idealz-primary-footer .footer-navigation a:hover {
+    color: #2AAA8A
+}
+
+#idealz-primary-footer .footer-right p {
+    max-width: 262px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -.614445px;
+    text-align: center;
+    margin: 0 auto 24px
+}
+
+#idealz-primary-footer .social-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 25px
+}
+
+#idealz-primary-footer .social-navigation li {
+    width: 53px;
+    margin-right: 16px
+}
+
+#idealz-primary-footer .social-navigation li:last-child {
+    margin-right: 0
+}
+
+#idealz-primary-footer .social-navigation a {
+    position: relative;
+    display: block;
+    width: 57px;
+    height: 56px
+}
+
+#idealz-primary-footer .social-navigation a ellipse,#idealz-primary-footer .social-navigation a path {
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+#idealz-primary-footer .social-navigation a:hover ellipse {
+    fill: #2AAA8A;
+}
+
+#idealz-primary-footer .social-navigation a:hover circle,#idealz-primary-footer .social-navigation a:hover path {
+    fill: #fff
+}
+
+@media(max-width: 1023px) {
+    #idealz-primary-footer {
+        -ms-flex-wrap:wrap;
+        flex-wrap: wrap
+    }
+
+    #idealz-primary-footer .footer-navigation {
+        width: 33%;
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0
+    }
+
+    #idealz-primary-footer .footer-right {
+        width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        margin-top: 20px
+    }
+
+    #idealz-primary-footer .app-download-store,#idealz-primary-footer .social-navigation {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+
+
+#idealz-secondary-footer {
+    border-radius: 15px;
+    background: #fff;
+    -webkit-box-shadow: 4px 8px 24px rgba(0,0,0,.04);
+    box-shadow: 4px 8px 24px rgba(0,0,0,.04);
+    margin: 0 36px 105px
+}
+
+#idealz-secondary-footer .address-footer {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 17px 17px 20px
+}
+
+#idealz-secondary-footer .address-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+#idealz-secondary-footer .address-footer ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 25%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 41px
+}
+
+#idealz-secondary-footer .address-footer ul li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+@media(max-width: 1360px) {
+    #idealz-secondary-footer .address-footer ul li {
+        padding-left:11px
+    }
+}
+
+#idealz-secondary-footer .address-footer ul a {
+    color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#idealz-secondary-footer .address-footer ul span {
+    margin-right: 8px
+}
+
+#idealz-secondary-footer .address-footer ul span img {
+    width: 100%
+}
+
+#idealz-secondary-footer .address-footer ul .physical-address h6 {
+    font-size: 12px;
+    line-height: 13px;
+    margin: 0
+}
+
+#idealz-secondary-footer .address-footer ul .physical-address h6:lang(ar) {
+    font-family: Cairo,sans-serif
+}
+
+#idealz-secondary-footer .address-footer ul .physical-address h6:lang(en) {
+    font-family: Rubik,sans-serif
+}
+
+#idealz-secondary-footer .address-footer ul .physical-address h6:lang(ar) {
+    font-weight: 700
+}
+
+#idealz-secondary-footer .address-footer ul .physical-address h6:lang(en) {
+    font-weight: 500
+}
+
+#idealz-secondary-footer .address-footer ul .physical-address p {
+    font-size: 12px;
+    line-height: 13px;
+    margin: 0
+}
+
+@media(max-width: 1360px) {
+    #idealz-secondary-footer .address-footer ul .physical-address p {
+        font-size:10px
+    }
+}
+
+#idealz-secondary-footer .copyright-footer {
+    padding: 17px 17px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#idealz-secondary-footer .copyright-footer .copyright-footer-left,#idealz-secondary-footer .copyright-footer .copyright-footer-right {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -.1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#idealz-secondary-footer .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+#idealz-secondary-footer .footer-links li {
+    position: relative;
+    padding-left: 8px;
+    margin-left: 8px
+}
+
+#idealz-secondary-footer .footer-links li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #9b9b9b;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+#idealz-secondary-footer .footer-links a {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -.1px;
+    color: #000;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+#idealz-secondary-footer .footer-links a:active,#idealz-secondary-footer .footer-links a:hover {
+    color: #2AAA8A;
+}
+
+#idealz-secondary-footer .card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 3px
+}
+
+#idealz-secondary-footer .card-list li {
+    width: 34px;
+    height: 25px;
+    margin-left: 5px
+}
+
+#idealz-secondary-footer .card-list li.g-pay {
+    width: 35px
+}
+
+#idealz-secondary-footer .card-list li.apple-pay {
+    width: 36px
+}
+
+#idealz-secondary-footer .copyright-footer-logo {
+    width: 86px;
+    height: 31px;
+    overflow: hidden;
+    display: block;
+    margin-right: 7px;
+    margin-top: -2px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+#idealz-secondary-footer .copyright-footer-logo:lang(ar) {
+    background-image: url(../images/newdesktop/sprite-ar2.png)
+}
+
+#idealz-secondary-footer .copyright-footer-logo:lang(en) {
+    background-image: url(../images/newdesktop/sprite2.png)
+}
+
+@media(max-width: 1023px) {
+    #idealz-secondary-footer .address-footer {
+        padding:17px 17px 0
+    }
+
+    #idealz-secondary-footer .address-footer ul {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+
+    #idealz-secondary-footer .address-footer ul li {
+        width: 50%;
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        padding-left: 0;
+        margin-bottom: 20px
+    }
+
+    #idealz-secondary-footer .copyright-footer-logo {
+        height: 29px
+    }
+
+    #idealz-secondary-footer .copyright-footer-left {
+        white-space: nowrap
+    }
+
+    #idealz-secondary-footer .copyright-footer-right {
+        text-indent: -999px
+    }
+
+    #idealz-secondary-footer .copyright-footer {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+}
+
+.link--kukuri {
+    display: inline-block;
+    overflow: hidden;
+    position: relative
+}
+
+.link--kukuri:hover {
+    color: #2AAA8A;
+}
+
+.app-download-store {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px
+}
+
+.app-download-store li {
+    margin-right: 8px;
+    max-width: 155px
+}
+
+.app-download-store a {
+    display: block
+}
+
+.app-download-store a.app-store {
+    width: 156px;
+    height: 47px;
+    background-position: 0 -57px;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.app-download-store a.app-store:lang(ar) {
+    background-image: url(../images/newdesktop/sprite-ar2.png)
+}
+
+.app-download-store a.app-store:lang(en) {
+    background-image: url(../images/newdesktop/sprite2.png)
+}
+
+.app-download-store a.play-store {
+    width: 156px;
+    height: 47px;
+    background-position: 0 -106px;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.app-download-store a.play-store:lang(ar) {
+    background-image: url(../images/newdesktop/sprite-ar2.png)
+}
+
+.app-download-store a.play-store:lang(en) {
+    background-image: url(../images/newdesktop/sprite2.png)
+}
+
+
+
+/* @media screen and (max-width: 768px) {
+.site - social.app - download - store a.app-store {width: 120px; height: 38px;background-position: 0 -43px;}
+                .site-social .app-download-store a.play-store {width: 120px; height: 38px;    background-position: 0 -81px;}
+                .site-social .app-download-store li:last-child {margin - right:0} */

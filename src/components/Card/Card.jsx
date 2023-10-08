@@ -1,8 +1,12 @@
 import React, { Fragment } from 'react'
+import './Card.css'
 
 const card = () => {
     return (
-        <Fragment></Fragment>
+        <Fragment>
+            HelloCard
+
+        </Fragment>
     )
 }
 
