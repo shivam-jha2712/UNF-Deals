@@ -5,6 +5,7 @@ import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
 import WinnerCard from './components/WinnerCard/WinnerCard'
 import Banner from './components/Banner/Banner'
+import ProductCard from './components/ProductCard/ProductCard'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className="page">
       <Header />
-      <Banner/>
+      <Banner />
+      <ProductCard />
       <Card />
       <WinnerCard />
       <Footer />

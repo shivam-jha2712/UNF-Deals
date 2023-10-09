@@ -1,0 +1,11 @@
+
+
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.swiper-slide{
+ margin-right: 2em;
+}

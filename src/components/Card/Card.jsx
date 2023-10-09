@@ -60,7 +60,7 @@ const card = () => {
                             <b>AED10,000 Cash</b>
                         </h3>
                         <div className="campaign-information">
-                            <h4>Buy a idealzbasics credit and make it yours! <span>
+                            <h4>Buy a MyurbanFarm credit and make it yours! <span>
                                 <div className="campaign-price">
                                     <span className="value" content="3.00">
                                         AED3.00
